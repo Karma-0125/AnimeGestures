@@ -6,11 +6,12 @@ Real-time Naruto visual effects triggered by hand gestures, built with Python, O
 
 | Gesture | Effect |
 |---|---|
-| ✌️ Crossed fingers | Sharingan / Rinnegan (eyes) |
+| 🤞 Crossed fingers | Sharingan / Rinnegan (eyes) |
 | 🤟 ILY sign | Byakugan — Neji Hyuga (eyes) |
-| 🖖 Vulcan sign | Gaara's Sand (body particles) |
+| ✌️ Vulcan sign | Gaara's Sand (body particles) |
 | ✊ Fist | Chidori — Kakashi (hand lightning) |
 | 👆👆 Two index fingers | Chakra Mode + Rasengan |
+| 🫳🫴 Palm Up/Down Hand  | Rasengan |
 
 ##  Tech Stack
 
