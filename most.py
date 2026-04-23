@@ -1,18 +1,3 @@
-"""
-╔══════════════════════════════════════════════════════════════════════╗
-║          NARUTO ALL EFFECTS — Fichier unifié                         ║
-║                                                                      ║
-║  Gestes → Effets :                                                   ║
-║  ✌  Doigts croisés (index+majeur)  →  Sharingan / Rinnegan         ║
-║  🤟 ILY (index+auriculaire+pouce)  →  Byakugan (Neji)              ║
-║  🖖 Vulcan (index+majeur levés)    →  Sable de Gaara               ║
-║  ✊  Poing fermé                   →  Chidori (Kakashi)             ║
-║  👆👆 Index croisés (2 mains)      →  Mode Chakra / Rasengan        ║
-║                                                                      ║
-║  Q / Échap pour quitter                                              ║
-╚══════════════════════════════════════════════════════════════════════╝
-"""
-
 import cv2
 import mediapipe as mp
 import numpy as np
