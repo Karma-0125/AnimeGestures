@@ -75,7 +75,7 @@ def get_body_points(pose_lm, W, H):
 # DÉTECTION GESTES
 # ══════════════════════════════════════════════════════════════════════
 def is_crossed_fingers(lm):
-    """✌ Sharingan : index + majeur levés, majeur croisé sur index"""
+    """🤞 Sharingan : index + majeur levés, majeur croisé sur index"""
     index_up  = lm.landmark[8].y  < lm.landmark[6].y
     middle_up = lm.landmark[12].y < lm.landmark[10].y
     if not (index_up and middle_up): return False
@@ -94,7 +94,7 @@ def is_ily_gesture(lm):
             abs(lmk[4].x - lmk[9].x) > abs(lmk[3].x - lmk[9].x))
 
 def is_vulcan_gesture(lm):
-    """🖖 Gaara : index + majeur levés, annulaire + auriculaire pliés"""
+    """✌️ Gaara : index + majeur levés, annulaire + auriculaire pliés"""
     lmk = lm.landmark
     return (lmk[8].y  < lmk[6].y  and
             lmk[12].y < lmk[10].y and
